@@ -15,7 +15,6 @@ const Header: React.FC = async () => {
                 <HeaderContacts />
             </Box>
             <LanguageSelection />
-            <div>Refactor</div>
         </header>
     );
 };
