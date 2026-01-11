@@ -15,6 +15,7 @@ const Header: React.FC = async () => {
                 <HeaderContacts />
             </Box>
             <LanguageSelection />
+            <div>Test</div>
         </header>
     );
 };
