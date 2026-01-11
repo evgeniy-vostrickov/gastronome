@@ -1,0 +1,11 @@
+@use '../../../styles/colors';
+
+.header-contacts {
+    width: 280px;
+    height: 52px;
+    &__phone {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        color: colors.$color-green;
+    }
+}

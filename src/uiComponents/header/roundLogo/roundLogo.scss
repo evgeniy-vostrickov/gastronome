@@ -1,0 +1,17 @@
+.round-logo {
+    position: absolute;
+    top: -60px;
+    left: 330px;
+    width: 264px;
+    height: 264px;
+    background: no-repeat url('../../../../public/img/general/logo.png');
+    background-position: center center;
+    background-size: contain;
+    &::after {
+        content: 'healthy ration';
+        font-size: 14px;
+        position: absolute;
+        top: 67%;
+        right: 27%;
+    }
+}

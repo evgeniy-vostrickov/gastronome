@@ -1,0 +1,16 @@
+.main-navbar {
+    width: 880px;
+    height: 52px;
+    justify-content: flex-end !important;
+    padding-right: 40px;
+    &__item {
+        text-decoration: none;
+        color: #020202;
+        &_active {
+            color: #64D370;
+        }
+        & > h6 {
+            font-size: 14px !important;
+        }
+    }
+}

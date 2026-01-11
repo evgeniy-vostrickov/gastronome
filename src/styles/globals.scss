@@ -1,0 +1,25 @@
+@use './colors';
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: colors.$color-white !important;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colors.$color-white;
+    box-shadow: 0 0 40px rgba(86, 86, 86, 0.3);
+}
+
+.oval-box {
+    border-radius: 32px;
+}
+
+.circle-box {
+    border-radius: 50%;
+}
+
